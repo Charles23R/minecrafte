@@ -1,0 +1,37 @@
+[16:06:48] [main/ERROR]: Registry 'minecraft:chunk_generator_type' was empty after loading
+[16:06:50] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:06:50] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:06:50] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:06:50] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:06:50] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:06:51] [Server thread/INFO]: Starting minecraft server version 20w13b
+[16:06:51] [Server thread/INFO]: Loading properties
+[16:06:51] [Server thread/INFO]: Default game type: SURVIVAL
+[16:06:51] [Server thread/INFO]: Generating keypair
+[16:06:51] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Descripteur non valide
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:273) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:283) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:344) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at xk$2.run(SourceFile:112) [server%20(2).jar:?]
+[16:06:51] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:06:51] [Server thread/INFO]: Using default channel type
+[16:06:52] [Server thread/INFO]: Preparing level "world"
+[16:06:52] [Server thread/INFO]: Reloading ResourceManager: Default
+[16:07:00] [Server thread/INFO]: Loaded 6 recipes
+[16:07:00] [Server thread/INFO]: Loaded 863 advancements
+[16:07:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:07:01] [Server thread/INFO]: Preparing spawn area: 0%
+[16:07:01] [Server thread/INFO]: Preparing spawn area: 0%
+[16:07:01] [Server thread/INFO]: Preparing spawn area: 0%
+[16:07:02] [Server thread/INFO]: Preparing spawn area: 85%
+[16:07:02] [Server thread/INFO]: Time elapsed: 1622 ms
+[16:07:02] [Server thread/INFO]: Done (9.492s)! For help, type "help"
